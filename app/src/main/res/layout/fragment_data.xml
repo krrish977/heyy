@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DataFragment"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/d_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your Name"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:layout_marginHorizontal="15dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/d_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="About something you..."
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/ic_edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:visibility="visible"/>
+    <TextView
+        android:id="@+id/text_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Set your Profile here"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_edit"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg1"
+            android:backgroundTint="@color/purple_200"
+            android:text="save"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:visibility="gone"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg1"
+            android:backgroundTint="@color/purple_200"
+            android:text="edit"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_text_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Set your Profile here"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_edit"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

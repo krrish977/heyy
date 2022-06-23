@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirebaseAuthentationApp</string>
+    <string name="already_have_an_account_log_in">Already have an account: Log In</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="default_web_clint_id">default web clint id</string>
+    <string name="web_clint_id">676197636550-22u16ibtblbkqshacmca9gaosmu0tcde.apps</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+</resources>
