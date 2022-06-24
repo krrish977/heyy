@@ -170,8 +170,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Googleinitializations();
-// facebook ligin not seted
-//        FacebookInitialization();
+
 
     }
 
@@ -296,29 +295,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), MainActivity2.class));
             this.finish();
         }
-    }
-
-    private void FacebookInitialization() {
-//        fb_login_button = findViewById(R.id.fb_login_button);
-//
-//        fb_login_button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, FacebookAuthActivity.class);
-//                intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-//                startActivity(intent);
-//            }
-//        });
-        btn_facebook = findViewById(R.id.btn_facebook);
-        btn_facebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FacebookAuthActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-            }
-        });
-
     }
 
 }
